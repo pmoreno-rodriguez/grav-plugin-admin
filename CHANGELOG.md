@@ -1,3 +1,13 @@
+# v1.10.58
+## 09/09/2026
+
+1. [](#improved)
+    * A field's `classes` are now applied to the `array`, `column`, and `columns` field types, which previously ignored them [#2508](https://github.com/getgrav/grav-plugin-admin/pull/2508)
+    * Corrected and completed the Spanish translations [#2509](https://github.com/getgrav/grav-plugin-admin/pull/2509)
+
+1. [](#bugfix)
+    * The `array` field no longer renders a second `class` attribute for its one-child state, which meant the attribute was silently dropped
+
 # v1.10.57
 ## 09/01/2026
 
